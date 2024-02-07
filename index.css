@@ -1,0 +1,21 @@
+#play-ground {
+  margin: 0 auto;
+  width: 400px;
+  height: 400px;
+  background-image: url("/assets/img/grass.png");
+  position: relative;
+}
+
+#pikachu {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transition: all 200ms linear;
+}
+
+#pikachu > img {
+  width: 40px;
+  height: 40px;
+}
